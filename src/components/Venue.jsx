@@ -4,13 +4,13 @@ import ven from "../assets/ven.png"
 
 const Venue = () => {
   return (
-    <div className="flex justify-center items-center flex-col mt-20">
+    <div className="flex flex-col items-center justify-center mt-20">
     <img src={ven} alt=""/>
     <h3 className="text-[30px] mt-4">Venue & Date </h3>
 <div className="flex flex-col items-center justify-center w-full">
 <div className="flex flex-wrap items-center gap-10 px-5 mt-10 mb-10 lg:justify-center md:justify-start ">
     <div className="flex flex-col ">
-    <h3 className="text-[#fe3e01] font-extrabold"> Praize Ablaze Night</h3>
+    <h3 className="text-[#fe3e01] font-extrabold"> Praise Ablaze Night</h3>
 
         <div className="flex flex-col gap-4">
         <div className="flex items-center gap-2 ">
