@@ -2,7 +2,7 @@
 const Timer = () => {
   return (
     <div className="flex gap-3 justify-center -mt-11 bg-white md:mx-[10%] lg:mx-[30%] h-32 rounded-full">
-        <div className="flex gap-10 justify-center items-center text-white bg-[#fe3e01] w-[90%] mt-3 h-28 rounded-full">
+        <div className="flex gap-2 md:gap-10 justify-center items-center text-white bg-[#fe3e01] w-[90%] mt-3 h-28 rounded-full">
         <div className="flex flex-row items-center justify-center gap-4">
             <div className="flex flex-col items-center justify-center">
                 <h3>Days</h3>
