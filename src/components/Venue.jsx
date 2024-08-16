@@ -10,11 +10,11 @@ const Venue = () => {
 <div className="flex flex-col items-center justify-center w-full">
 <div className="flex flex-wrap items-center gap-10 px-5 mt-10 mb-10 lg:justify-center md:justify-start ">
     <div className="flex flex-col ">
-    <h3 className="text-[#fe3e01] font-extrabold"> Praise Ablaze Night</h3>
+    <h3 className="text-[#F1380B] font-extrabold"> Praise Ablaze Night</h3>
 
         <div className="flex flex-col gap-4">
         <div className="flex items-center gap-2 ">
-        <CiCalendar className="w-[20px] h-10 text-[#fe3e01] " />
+        <CiCalendar className="w-[20px] h-10  " style={{color:"rgb(241, 56, 11)"}}/>
         <h3 className="text-[15px] text-gray-500 font-bold"> 11th October, 2024</h3>
         </div>
         <div className="flex  items-center gap-2 mt-[-10px]">
@@ -28,7 +28,7 @@ const Venue = () => {
         </div>
     </div>
     <div className="flex flex-col gap-3">
-       <h3 className="text-[#fe3e01] font-extrabold"> Party Celebration</h3>
+       <h3 className="text-[#F1380B] font-extrabold"> Party Celebration</h3>
        <div className="flex flex-col gap-4">
         <div className="flex items-center gap-2 ">
         <CiCalendar className="w-[20px] h-10 text-[#fe3e01] " />
@@ -40,14 +40,14 @@ const Venue = () => {
         </div>
         <div className="flex  items-center gap-2 mt-[-10px]">
         <CiLocationOn className="w-[20px] h-10 text-[#fe3e01]" />
-        <h3 className="text-[15px] text-gray-500 font-bold">Marina Delrey  1 Marina Dr,Bronx,<br/> NY 10465</h3>
+        <h3 className="text-[15px] text-gray-500 font-bold">Click the Link to recieve Location details</h3>
         </div>
         </div>
 
 
     </div>
     <div className="flex flex-col gap-3 ">
-    <h3 className="text-[#fe3e01] font-extrabold"> Thanksgiving Service</h3>
+    <h3 className="text-[#F1380B] font-extrabold"> Thanksgiving Service</h3>
     <div className="flex flex-col gap-4">
         <div className="flex items-center gap-2 ">
         <CiCalendar className="w-[20px] h-10 text-[#fe3e01] " />

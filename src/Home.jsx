@@ -1,6 +1,7 @@
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import HeroSection from './components/HeroSection'
+import ImageView from './components/ImageView'
 import Navbar from './components/Navbar'
 import Venue from './components/Venue'
 
@@ -10,6 +11,7 @@ const Home = () => {
       <Navbar/>
       <HeroSection/>
       <Venue/>
+      <ImageView/>
       <Contact/>
       <Footer/>
     </div>
