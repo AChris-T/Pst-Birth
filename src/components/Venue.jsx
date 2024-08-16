@@ -40,7 +40,7 @@ const Venue = () => {
         </div>
         <div className="flex  items-center gap-2 mt-[-10px]">
         <CiLocationOn className="w-[20px] h-10 text-[#fe3e01]" />
-        <h3 className="text-[15px] text-gray-500 font-bold">Click the Link to recieve Location details</h3>
+        <a href="" className="text-[15px] text-gray-500 font-bold">Click the Link me to recieve Location details</a>
         </div>
         </div>
 

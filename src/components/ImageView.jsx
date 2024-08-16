@@ -12,9 +12,9 @@ const images = [
 ]
 const ImageView = () => {
   return (
-    <div className="mx-20 mb-14">
+    <div className="md:mx-8 lg:mx-20 mb-14">
       <ResponsiveMasonry
-                columnsCountBreakPoints={{350: 1, 750: 2, 900: 3}}
+                columnsCountBreakPoints={{350: 2, 750: 2, 900: 3}}
             >
                 <Masonry  gutter="10px">
                     {images.map((image, i) => (
