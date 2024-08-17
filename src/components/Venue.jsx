@@ -2,7 +2,8 @@ import { CiCalendar, CiLocationOn } from "react-icons/ci";
 import { MdAccessTime } from "react-icons/md";
 import ven from "../assets/ven.png"
 
-const Venue = () => {
+// eslint-disable-next-line react/prop-types
+const Venue = ({handleCheckout}) => {
   return (
     <div className="flex flex-col items-center justify-center mt-20">
     <img src={ven} alt=""/>
@@ -40,7 +41,7 @@ const Venue = () => {
         </div>
         <div className="flex  items-center gap-2 mt-[-10px]">
         <CiLocationOn className="w-[20px] h-10 text-[#fe3e01]" />
-        <a href="" className="text-[15px] text-gray-500 font-bold">Click the Link me to recieve Location details</a>
+        <button  onClick={handleCheckout} className="text-[15px] text-gray-500 font-bold">Click the Link me to recieve Location details</button>
         </div>
         </div>
 

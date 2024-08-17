@@ -6,38 +6,15 @@ import sweet from "../assets/sweet.png"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Timer from "./Timer";
-import { loadStripe } from "@stripe/stripe-js";
-
-const stripePromise = loadStripe("pk_test_51PoJVYFkL91BNl4zZFi96d1in5rwe4sV8S5zKGt1O34OF2z2CBYWNkhEs94hK65sGE2tiwvHHXCXTSRNp6Li36hw00h0aVL3mJ");
 
 
-const HeroSection = () => {
+
+// eslint-disable-next-line react/prop-types
+const HeroSection = ({handleCheckout}) => {
     useEffect(() => {
         AOS.init();
       }, [])
-      const handleCheckout = async () => {
-        const stripe = await stripePromise;
-    
-        try {
-          const { error } = await stripe.redirectToCheckout({
-            lineItems: [
-              {
-                price: 'price_1PoJXmFkL91BNl4z2ftFIYxs', // Replace with your actual Price ID
-                quantity: 1,
-              },
-            ],
-            mode: 'payment',
-            successUrl: `${window.location.origin}/success`,
-            cancelUrl: `${window.location.origin}/cancel`,
-          });
-    
-          if (error) {
-            console.error('Stripe checkout error:', error);
-          }
-        } catch (error) {
-          console.error('Checkout error:', error);
-        }                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
-      };
+      
   return (
     <>
     <div className="hero flex justify-around items-center text-white gap-2"><div className="hidden md:block"  data-aos="fade-right" data-aos-delay="900"  data-aos-duration="3000">
