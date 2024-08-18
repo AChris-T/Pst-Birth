@@ -1,5 +1,5 @@
 
-const Note = () => {
+const Note = ({handleCheckout}) => {
   return (
     <div style={{background:"rgb(255, 241, 251)", fontFamily:"Rye"}} className="flex justify-center items-center py-10 flex-col gap-8">
       <h3 style={{color:"rgb(2, 92, 99)", fontFamily:"Rye"}} className="text-[32.8px] text-center">Take notes before the celebration</h3>
@@ -22,7 +22,7 @@ const Note = () => {
       <div className="bg-white px-12 py-12 rounded-md flex flex-col justify-center items-center gap-8">
         <h3 style={{color:"rgb(2, 92, 99)", fontFamily:"Rye"}} className="text-[32.8px] ">Reserve your place</h3>
         <p style={{color:"rgb(2, 92, 99)", fontFamily:"Alice"}} className="w-[400px] text-center text-[18.4px]">We are thrilled to invite you to join us in celebrating the incredible birthday</p>
-        <button style={{backgroundImage: "linear-gradient(-180deg, rgb(109, 219, 154) 0%, rgb(74, 181, 204) 96%)"}} className="py-3 w-32 text-[18.4px] text-white rounded-full">RSVP</button>
+        <button onClick={handleCheckout} style={{backgroundImage: "linear-gradient(-180deg, rgb(109, 219, 154) 0%, rgb(74, 181, 204) 96%)"}} className="py-3 w-32 text-[18.4px] text-white rounded-full">RSVP</button>
       </div>
     </div>
   )

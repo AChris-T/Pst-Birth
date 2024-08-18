@@ -1,7 +1,7 @@
 import { CiCalendar, CiLocationOn } from "react-icons/ci"
 import { MdAccessTime } from "react-icons/md"
 
-const Location = () => {
+const Location = ({handleCheckout}) => {
   return (
     <div className="nan-effect flex justify-center flex-col items-center">
     <h3 style={{color:"rgb(255, 255, 255)", fontFamily:"Rye"}} className="text-[43px] flex text-center">💫 Join the celebration on 💫</h3>
@@ -39,7 +39,7 @@ const Location = () => {
         </div>
         <div className="flex  items-center gap-2 mt-[-10px]">
         <CiLocationOn className="w-[20px] h-10 " />
-        <button  onClick={""} className="text-[15px]  font-bold">Click the Link me to recieve Location details</button>
+        <button  onClick={handleCheckout} className="text-[15px]  font-bold">Click the Link me to recieve Location details</button>
         </div>
         </div>
 
