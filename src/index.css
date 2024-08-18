@@ -23,3 +23,9 @@
   background-image:linear-gradient(rgba(128, 167, 23, 0.45),rgba(128, 167, 23, 0.45)), url(./assets/texture.png);
 
 }
+.nan-effect{
+  background-image:linear-gradient(rgba(2, 92, 99, 0.67), rgba(2, 92, 99, 0.67)), url(./assets/scl.jpg);
+  width: 100%;
+  padding: 30px;
+
+}

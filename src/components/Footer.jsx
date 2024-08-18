@@ -1,8 +1,8 @@
 
 const Footer = () => {
   return (
-    <div className="bg-black flex text-center mt-8 h-28 text-white justify-center items-center ">
-      © 2024 PDAA - Diamond Jubille All Rights Reserved. Terms of UsePrivacy Policy
+    <div style={{background:"rgb(2, 92, 99)", fontFamily:"Alice"}} className="flex text-center  h-28 text-white justify-center items-center ">
+      © 2024 PDAA - Diamond Jubille All Rights Reserved. Terms of Use Privacy Policy
     </div>
   )
 }
