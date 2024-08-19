@@ -22,8 +22,8 @@ const NewHome = () => {
               },
             ],
             mode: 'payment',
-            successUrl: `${window.location.origin}/success?session-id={CHECKOUT_SESSION_ID}`,
-            cancelUrl: `${window.location.origin}/cancel`,
+            successUrl: `${window.location.origin}/success?session-id={CHECKOUT_SESSION_I`,
+            cancelUrl: `${window.location.origin}`,
           });
     
           if (error) {
